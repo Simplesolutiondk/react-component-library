@@ -13,7 +13,7 @@ import Search from './components/search/search';
 import GDPR from './components/gdpr/gdpr';
 
 
-export * from './components/modal/modal';
+export { default } from './components/modal/modal';
 
 
 //  Production flag
