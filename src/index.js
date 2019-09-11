@@ -9,6 +9,5 @@ export { default as LoaderDots } from './components/elements/loaders/dots.jsx';
 export { default as ModalDialog } from './components/modal/modal.jsx';
 export { default as NumFormat } from './elements/utils/numformat.jsx';
 export { default as AsyncIframe } from './elements/asynciframe.jsx';
-export { default as AsyncImage } from './elements/asyncimage.jsx';
 export { default as VideoEmbed } from './elements/videoembed.jsx';
 export { default as Emitter } from './eventemitter.js';
