@@ -1,0 +1,160 @@
+.input-box {
+    flex-grow: 1;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eee;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin: 8px 0 0 0;
+}
+
+.input-box:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #eee;
+    outline: 0;
+}
+
+.item-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.item-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 7px;
+    height: 14px;
+    width: 14px;
+    background-color: #eee;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.item-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.item-container input:checked ~ .checkmark {
+    background-color: #eee;
+}
+
+.item-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.item-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.item-container .checkmark:after {
+    left: 4px;
+    top: 2px;
+    width: 4px;
+    height: 6px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.option-body {
+    width: auto;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.option-text {
+    margin: 0;
+    display: inline;
+}
+
+.select-box-container {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    text-align: left;
+}
+
+.select-box {
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    font-weight: 900;
+    color: #bbb;
+}
+
+.select-box-clear,
+.select-box-default {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-indent: -9999em;
+    background: white;
+    z-index: 3;
+    border: none;
+    height: 100%;
+    width: 40px;
+}
+
+.select-box-clear svg,
+.select-box-default svg {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 1;
+    color: var(--text-grey);
+    line-height: 1;
+    width: 100%;
+    height: 50%;
+    fill: #bbb;
+}
+
+.select-box-default svg {
+    transform: rotate(90deg);
+}
+
+.select-box-clear svg {
+    fill: green;
+}
+
+.select-box-clear:before {
+    content: 'v';
+}
+
+.select-box-default:before {
+    content: '+';
+}
+label.item-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: SignaNormal, 'sans-serif';
+}
+.list-result {
+    margin-top: 20px;
+}

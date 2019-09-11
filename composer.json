@@ -1,0 +1,138 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/wp-capabilities.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/wordpress-polylang-wc.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/wordpress-polylang-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/testimonial-case-slider-block.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/large-section-sso-block.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/sso-contact-picker-block.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/category-content-sso-block.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/sso-someshare.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/gravity-forms-gutenberg-block.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/gravity-forms-mailchimp-addon.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/gravity-forms.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/wordpress-sso-scripts.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/wordpress-mu-domain-mapping.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/sso-banner-carousel.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/sso-50-50-text-title.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/sso-custom-presentation.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/wordpress-sso-shipping.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/wp-post-showcase.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/sso-image-info-text-block.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/sso-about-info-block.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/sso-image-showcase-block.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:simple-solution/sso-double-image-content-block.git"
+    }
+  ],
+  "require": {
+    "simple-solution/sso-about-info-block": ">=1.0.0",
+    "simple-solution/wp-capabilities": ">=1.0",
+    "simple-solution/sso-image-info-text-block": ">=1.0.0",
+    "simple-solution/sso-image-showcase-block": ">=1.0.0",
+    "simple-solution/sso-double-image-content-block": ">=1.0.0",
+    "simple-solution/wp-post-showcase": ">=1.0.0",
+    "simple-solution/wordpress-polylang-wc": ">=1.1",
+    "simple-solution/wordpress-polylang-pro": ">=2.5",
+    "simple-solution/sso-testimonial-case-slider": ">=1.0",
+    "simple-solution/sso-large-section": ">=1.0",
+    "simple-solution/sso-contact-picker": ">=1.0",
+    "simple-solution/sso-category-content-sso-block": ">=1.0",
+    "simple-solution/sso-custom-presentation": ">=1.0",
+    "simple-solution/sso-someshare": ">=1.0",
+    "simple-solution/sso-50-50-text-title": ">=1.0.0",
+    "simple-solution/sso-scripts": ">=1.0",
+    "simple-solution/sso-banner-carousel": ">=0.0.2",
+    "simple-solution/gravityforms": ">=2.4",
+    "simple-solution/gravityformsgutenberg": ">=1.0",
+    "simple-solution/gravityformsmailchimp": ">=4.6",
+    "simple-solution/wordpress-mu-domain-mapping": ">=0.5",
+    "simple-solution/wordpress-sso-shipping": ">=1.0.1",
+    "php": ">=7.0",
+    "johnpbloch/wordpress": ">=4.9",
+    "dompdf/dompdf": "^0.8.3",
+    "wpackagist-plugin/woocommerce": ">=3.0",
+    "wpackagist-plugin/wordpress-seo": ">=9.0",
+    "wpackagist-plugin/kint-debugger": ">=1.0",
+    "wpackagist-plugin/safe-svg": ">=1.9",
+    "automattic/woocommerce": ">=3.0",
+    "humanmade/network-media-library": "^1.5"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  },
+  "autoload": {
+    "psr-4": {
+      "ssoR\\": "wp-content/themes/sso-retail/framework/",
+      "ssoD\\": "wp-content/themes/sso-deco/framework/"
+    }
+  }
+}
