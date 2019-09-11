@@ -4,7 +4,7 @@ import Emitter from '../../eventemitter.js';
 import ModalOverlay from './modaloverlay.jsx';
 import ModalBox from './modalbox.jsx';
 
-class ModalDialog extends Component {
+export default class ModalDialog extends Component {
     constructor(props) {
         super(props);
         this.state = {

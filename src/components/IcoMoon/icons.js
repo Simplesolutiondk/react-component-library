@@ -1,4 +1,4 @@
-const icons = {};
+export default icons = {};
 
 icons.path = {
     'file-text2': [
@@ -1779,6 +1779,3 @@ icons.viewBox = {
     'menu4': '0 0 44 32',
     'volume-high': '0 0 34 32',
 };
-
-
-export default icons;

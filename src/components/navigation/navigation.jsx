@@ -3,10 +3,10 @@ import React, { Component, Fragment } from 'react';
 import MobileMenu from './mobile/MobileMenu';
 import DesktopMenu from './desktop/DesktopMenu';
 
-class Navigation extends Component {
+export default class Navigation extends Component {
     constructor(props) {
         super(props);
-        this.state = { 
+        this.state = {
             DisplayMobileMenu: false,
          }
     }
@@ -35,9 +35,7 @@ class Navigation extends Component {
                 </Fragment>
 
             );
-        } 
+        }
         return <DesktopMenu />
     }
 }
- 
-export default Navigation;

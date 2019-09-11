@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class LoaderDots extends Component {
+export default class LoaderDots extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -36,5 +36,3 @@ class LoaderDots extends Component {
         }
     }
 }
-
-export default LoaderDots;

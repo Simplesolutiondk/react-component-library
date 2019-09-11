@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class AsyncIframe extends Component {
+export default class AsyncIframe extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -29,5 +29,3 @@ class AsyncIframe extends Component {
     )
   }
 }
-
-export default AsyncIframe;

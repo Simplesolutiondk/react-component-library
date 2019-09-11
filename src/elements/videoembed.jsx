@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class VideoEmbed extends Component {
+export default class VideoEmbed extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -8,7 +8,7 @@ class VideoEmbed extends Component {
             imageLoaded: true,
             showingVideo: false,
         };
-            
+
         this.handlePlayVideo = this.handlePlayVideo.bind(this);
     }
 
@@ -49,5 +49,3 @@ class VideoEmbed extends Component {
         );
     }
 }
-
-export default VideoEmbed;
