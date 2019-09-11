@@ -12,11 +12,9 @@ import Modal from './components/modal/modal';
 import Search from './components/search/search';
 import GDPR from './components/gdpr/gdpr';
 
-module.exports = {
-    Modal,
-    GDPR,
-    Engine
-}
+
+export {default as Modal} from './components/modal/modal';
+
 
 //  Production flag
 if (!process.env.NODE_ENV || process.env.NODE_ENV === 'production') {
