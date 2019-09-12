@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class AsyncImage extends Component {
+class AsyncImage extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -29,3 +29,5 @@ export default class AsyncImage extends Component {
     )
   }
 }
+
+export default AsyncImage;

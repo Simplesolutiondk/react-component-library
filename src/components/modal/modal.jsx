@@ -141,8 +141,3 @@ export default class ModalDialog extends Component {
         </div>)
     }
 }
-
-
-document.addEventListener("DOMContentLoaded", ev => {
-    ReactDOM.render(<ModalDialog/>, document.getElementById('modal'));
-});

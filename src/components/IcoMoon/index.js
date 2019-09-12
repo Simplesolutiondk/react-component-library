@@ -10,7 +10,7 @@ const style = {
     fill: "currentColor"
 };
 
-export default IcoMoon = ({icon, ...props}) => {
+const IcoMoon = ({icon, ...props}) => {
 
     try {
         const iconPath = Icons.path[icon];
@@ -38,3 +38,5 @@ export default IcoMoon = ({icon, ...props}) => {
         return <span></span>
     }
 };
+
+export default IcoMoon;

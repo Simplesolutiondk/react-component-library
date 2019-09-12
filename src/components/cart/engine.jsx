@@ -6,6 +6,8 @@ import TotalSummary from './elements/totalsummary';
 import {Container, Error, Checkout} from './elements/tools';
 import Right from './elements/right';
 import * as utils from './utils/utils';
+import Emitter from '../../eventemitter';
+import wcApi from '../../utils';
 
 // Globals
 window.isSubmitted = false;
@@ -44,6 +46,8 @@ class Engine extends Component {
     }
 
     componentDidMount() {
+        console.log("Engine Mounted");
+
         // Reference
         const _this = this;
 
@@ -1601,3 +1605,4 @@ class Engine extends Component {
 }
 
 export default withApi(Engine);
+// export default Engine;

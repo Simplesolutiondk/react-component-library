@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class NumFormat extends Component {
+class NumFormat extends Component {
     constructor(props) {
         super(props);
     }
@@ -35,3 +35,5 @@ export default class NumFormat extends Component {
         }
     }
 }
+
+export default NumFormat;
