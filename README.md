@@ -25,3 +25,5 @@ __For Staging:__
 ### Step 2
 
 Run ```npm install``` in your terminal, in the project. This will install the package and you'll be able to find this in node_modules in "react-component-library".
+___
+__[Find the extended documentation for all component here.](https://simplesolution-dk.atlassian.net/wiki/spaces/SSOI/pages/723976252/React+Component+Library)__
